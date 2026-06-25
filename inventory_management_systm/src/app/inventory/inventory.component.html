@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory management system</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <!-- <nav class="border-2 p-4 mt-4 rounded-xl shadow-sm bg-black">
+    <ul class="flex flex-row-reverse items-center text-black">
+    
+        <li id="logout" class="ml-8 cursor-pointer text-white hover:text-blue-600 transition"><a href="./auth/login.html">Logout</a></li>
+        <li class="ml-8 cursor-pointer text-white hover:text-blue-600 transition"><a href="./addInventory.html">Add_Inventory</a></li>
+        <li class="ml-8 cursor-pointer text-white hover:text-blue-600 transition">Home</li>
+
+        <li class="ml-2 font-medium text-white">Search Category</li>
+
+        <li class="border-2 rounded-lg border-gray-400 px-2 py-1 
+    flex items-center bg-white focus-within:border-blue-500 transition-all">
+    
+    <input 
+        id="show" 
+        type="text"
+        placeholder="Type here..." 
+        class="outline-none bg-transparent text-sm w-full text-black placeholder-gray-500" 
+    >
+</li>
+    </ul>
+</nav> -->
+<div>
+    <h1>welcome {{username}}</h1>
+    <h1 class="mt-10" id="total" >TOTAL INVENTORY COST : {{totalInventoryCost|currency:'INR'}}</h1>
+    <button id="alert" (click)="getalert()" class=" mb-4 mt-2 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ">Alert</button>
+    <button id="show_all" (click)="getProduct()" class=" mb-4 mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ">Show_All</button>
+<div class="overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full text-sm text-left text-gray-900 bg-white">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-100 border-b">
+            <tr>
+                <th scope="col" class="px-6 py-3">Product Name</th>
+                <th scope="col" class="px-6 py-3">SKU</th>
+                <th scope="col" class="px-6 py-3">Category</th>
+                <th scope="col" class="px-6 py-3">selling price</th>
+                <th scope="col" class="px-6 py-3">Qty</th>
+                <th scope="col" class="px-6 py-3 text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+      <tr *ngFor="let p of products" class="border-b hover:bg-gray-50">
+        <td class="px-6 py-4 font-medium">{{ p.productName }}</td>
+        <td class="px-6 py-4">{{ p.stockKeepingUnit }}</td>
+        <td class="px-6 py-4">{{ p.category }}</td>
+        <td class="px-6 py-4">{{ p.sellingCost | currency:p.currency }}</td>
+        <td class="px-6 py-4">{{ p.quantityInHand }}</td>
+        <td class="px-6 py-4 flex justify-center gap-6">
+                    
+                    <button (click)="selectUpdateProduct(p._id)" class="text-blue-600 hover:text-blue-800 
+                    flex items-center gap-1 edit-btn" 
+                    data-id = "${product.id}">
+                        <i class="fi fi-rr-edit text-lg"></i>
+                    </button>
+
+                    <button (click)="deleteProduct(p._id)" type="button" class="text-red-600 hover:text-red-800 del-btn"
+                        data-id="${product.id}">
+                    <i class="fi fi-rr-trash text-lg"></i>
+                </button>
+                    
+                </td>      
+    </tr>
+    </tbody>
+    </table>
+</div>
+

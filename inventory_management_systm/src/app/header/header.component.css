@@ -1,0 +1,18 @@
+/* nav{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    width:150px;
+    justify-content: space-between;
+    margin-left:10px;
+}
+*/
+.active{
+    color: teal;
+} 

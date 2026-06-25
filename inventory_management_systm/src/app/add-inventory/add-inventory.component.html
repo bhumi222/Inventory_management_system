@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Inventory</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <form #productForm = "ngForm" (ngSubmit)="addProduct(productForm.value)" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+     
+        <div class="mb-4">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="p_d">Product name</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="p_n" placeholder="Product name..." name="productName" [ngModel]="singlepoduct?.productName">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="sku" >stock keeping unit</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="sku" placeholder="Stock keeping unit..." name="stockKeepingUnit" [ngModel]="singlepoduct?.stockKeepingUnit">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="cat">Category</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="cat" placeholder="Category..." name="category" [ngModel]="singlepoduct?.category">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="p_d"> Product Description </label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="p_d" placeholder="Product Description..." name="productDetails" [ngModel]="singlepoduct?.productDetails"> 
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="qh">Quantity in hand</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" id="qh" placeholder="quantity in hand..." name="quantityInHand" [ngModel]="singlepoduct?.quantityInHand">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="um">Unit Of Measure</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="um" placeholder="unit of measure..." name="unitOfMeasure" [ngModel]="singlepoduct?.unitOfMeasure">
+    <div class="mb-4">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="cur">
+        Preferred Currency
+    </label>
+    <div class="relative">
+        <select id="cur" name="currency" [ngModel]="singlepoduct?.currency" class="block appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-white shadow">
+            <option value="" disabled selected>Select a currency...</option>
+            <option value="USD">USD - United States Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="GBP">GBP - British Pound Sterling</option>
+            <option value="INR">INR - Indian Rupee</option>
+        </select>
+        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+        </div>
+    </div>
+</div>
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="uc">Unit Cost</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" id="uc" placeholder="unit cost..." name="unitCost" [ngModel]="singlepoduct?.unitCost">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="sp">Selling Price</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" id="sp" placeholder="Enter selling price..." name="sellingCost" [ngModel]="singlepoduct?.sellingCost">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="sn">Seller Name</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="sn" placeholder="Enter seller name..." name="sellerName" [ngModel]="singlepoduct?.sellerName">
+    <label class="block text-gray-700 text-sm font-bold mb-2 mt-2" for="bn">Batch Number</label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" id="bn" placeholder="Enter batch number..." name="BatchNumber" [ngModel]="singlepoduct?.BatchNumber">
+</div>   
+    <div class="flex flex-row ">
+         @if(!singlepoduct){
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" id="add">
+        Add
+      </button>}
+      @else{
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" id="update">
+        update
+      </button>}
+      <button class="bg-blue-500 ml-8 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="reset" id="reset">Reset</button>
+    </div> 
+</form>
+<script src="addInventory.js"></script>
+</body>
+</html>

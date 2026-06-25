@@ -1,0 +1,45 @@
+
+<nav *ngIf="router.url === '/add'" class="border-2 p-4 mt-4 rounded-xl shadow-sm bg-black">
+    <ul class="flex flex-row-reverse items-center text-white">
+    
+        <li class="ml-8 cursor-pointer hover:text-blue-600 transition">
+            <a routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/">add inventory</a>        </li>
+        <li class="ml-8 cursor-pointer hover:text-blue-600 transition">
+            <a routerLinkActive="active" routerLink="/home">Home</a>
+        </li>
+    </ul>  
+</nav>
+
+
+<nav *ngIf="router.url.includes('/home')" class="border-2 p-4 mt-4 rounded-xl shadow-sm bg-black">
+    <ul class="flex flex-row-reverse items-center text-black">
+    
+        <li id="logout" class="ml-8 cursor-pointer text-white hover:text-blue-600 transition">
+            <a (click)="userlogout()">Logout</a></li>
+        <li class="ml-8 cursor-pointer text-white hover:text-blue-600 transition">
+            <a routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/add">add inventory</a>        
+        </li>
+        <li class="ml-8 cursor-pointer text-white hover:text-blue-600 transition">
+            <a routerLinkActive="active" routerLink="/home">Home</a>
+        </li>
+
+        <!-- <li  class="ml-2 font-medium text-white">Search Category</li>
+
+        <li class="border-2 rounded-lg border-gray-400 px-2 py-1 
+    flex items-center bg-white focus-within:border-blue-500 transition-all">
+    
+    <input 
+        id="show" 
+        type="text"
+        name="Search"
+        (input)="searchData()"
+        placeholder="Type here..."
+        ngModel 
+        class="outline-none bg-transparent text-sm w-full text-black placeholder-gray-500" 
+    >
+</li> -->
+<li>
+    
+</li>
+    </ul>
+</nav>
