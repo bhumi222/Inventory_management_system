@@ -1,0 +1,367 @@
+[
+    {
+        "id": 6,
+        "email": "xyz@gmail.com",
+        "password": "$2b$10$atwTCYeLKtVKW1KCujLy1.UV4N6O1ImctS/5BIq1RP7gg6wagvXi6"
+    },
+    {
+        "id": 7,
+        "email": "xyz@gmail.com",
+        "password": "$2b$10$5DNbYWZLBYq7FkD.DWbVsO80WC8aOj6lBHeT1GXsWp2dpJnpgejMW"
+    },
+    {
+        "email": "xyz123@gmail.com",
+        "password": "$2b$10$5yaT9gbTpoSQ74DU.BRjzey8/y/W.BThVagZsKMLvTvjlxElq8wCi",
+        "action": "register"
+    },
+    {
+        "id": 9,
+        "email": "bhu@gmail.com",
+        "password": "$2b$10$9t/VxN2JUJHfBuPNEsbWUek4aF.PiNfOaezb9nBHO6AyFLGEeXfrK",
+        "action": "register"
+    },
+    {
+        "id": 10,
+        "email": "def@gmail.com",
+        "password": "$2b$10$c6VM4OiCvFexoEO66lTCd.zHdCfDsiJJg0Bh7fNpLy84LXxcq6wIG",
+        "action": "register"
+    },
+    {
+        "email": "defr4r@gmail.com",
+        "password": "$2b$10$fO6xr5XbQIOtNQITRQXKy.QybjHvTdDruWHSateoA6um33N.Iuh86",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "defrr@gmail.com",
+        "password": "$2b$10$Gufrj7moSYAh39ZKFh0lz.hIJ2xwgylw1ql4PAwkzruu2G58naWme",
+        "confirm_password": "undefined"
+    },
+    {
+        "id": null,
+        "email": "rr@gmail.com",
+        "password": "$2b$10$x1IxUsgwbPdVSwa1zheBz.6fGFRY6M3zGIdr3nNsXb2omP5lFJACW",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "r@gmail.com",
+        "password": "$2b$10$3FyNubAT7REkVlG2hhn8zefvE9JEtfFNjpGU/kvifbFcRVCJHB.Nu",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "r@gmail.com",
+        "password": "$2b$10$epVgEX.7pKcfotgzd351OuHn/Tu5CDpyc1RVMr5868b4GXWGop6jy",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "r@gmail.com",
+        "password": "$2b$10$96OlESjMZnf6ragnQx6pLezIHvay9uV0iYCklCoQwqOvIM35GNsw.",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "r@gmail.com",
+        "password": "$2b$10$ucMu21AGim8jwAhkSi8P5u5/hNTWxpa1lRQ3U7JhA.0Co8WblPnj6",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "r@gmail.com",
+        "password": "$2b$10$zc5Ia.tPtDTKntzL32xCkeIffpbcL2m9AxZsvcmBMjD0PQY.tPZAa",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "fdfgfg@gmail.com",
+        "password": "$2b$10$Vhz3qkKfZTozVd2Ogi5PxuNId2xlpHKUtdfCT/.Yq9Llbtjf.bBci",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "fdfgfg@gmail.com",
+        "password": "$2b$10$sFYih6dUz86lSay6sA26uefOYgZ8.mPsj.IRpW9wIB8moFPcfjACS",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "fdfgfg@gmail.com",
+        "password": "$2b$10$UPVF/R32RkRpcVylA1MUQ.mywxscpIsQgS0zqg6IAyPqDcD8YJb7a",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": 1,
+        "email": "the@gmail.com",
+        "password": "$2b$10$D089V0pFuTWT7xCgLWY1Wu7jPxTmnF55higkevPHh1/40ZUCERMD.",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": 2,
+        "email": "the@gmail.com",
+        "password": "$2b$10$8BbJXVo/sJ4NwyxZsFy6j.BXssj9bhLKTaEVCQDl.adCkBa3EYUIu",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": 1,
+        "email": "nji@gmail.com",
+        "password": "$2b$10$T.8.j6iASpgYPARArcPAkOjoeowQsQH5zcJB.9nWmUVGfRDSZ1UaW",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": 5,
+        "email": "jki@gmail.com",
+        "password": "$2b$10$AZOgpB0BpmgF8T9KapXONOSdnOb8nu1epVz293EpRxcgne8Ty8c1G",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": 6,
+        "email": "jki@gmail.com",
+        "password": "$2b$10$JUS2Xy0qk2yLB1SYt2denu4IUgw.xNW/ZjCoqrEb6FkPdu9fSwLMm",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": null,
+        "email": "dsds@gmail.com",
+        "password": "$2b$10$BAJawrhNhdHjnt4eXWjgzOcw7gGrFBla6PBHjW1FSsO74TpJ8fgAK",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "dss@gmail.com"
+        },
+        "password": "$2b$10$JMpLRS6dR3ZSutY.JhXO2uwinQbRjVUftiGkQ3YjOCbxNSFuJo8BG",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "ds@gmail.com"
+        },
+        "password": "$2b$10$qUEdIpGmxxRgFAQpc2vNQ.TaC5kFVS526OPQY3bnV5KIsNK5hkBly",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$YW5drTTdmEiaoveivVaJnuP4r.UsR4XtFOrgq.7Fh9l.GdYE6UVtK",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$zP.nhHn7guenkz1d.ghYzukpjjr58/Cxsv152SKiOpJbSB32v0.pi",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$U2BbfqIls2RC5ZaoydvLX.soXVapbWHy.80YixI6xxrVp/HHK0e6a",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$KqGZTHzbBYqrp/.Gq/Eey.KEfQVc.bc6Sg0TbHh1qZF85Si91PrXS",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$7qp.Qkofs8SGor76LzrjTuEiCbahk4z9a7yDpv7fPVTjkTXrZJfJi",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$yGPr1opuJR0BWM3xsbJKfOwcOrQrtrq0R273.v4Od0cEkuFqQT66S",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$k0eT9yVmpecStSeGK3d8Z.0XmITQWlsutrtnbogpylHIaztqb6h.G",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$6jO.t4KsoFRDlhRu9IcZdeNXaud0PtoKQ4dPr9kpj2fsE2YXZPoiW",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$y017OBldGitN9M4dPZHhceg7QY/ddr1jL.za04eb5nbV8U6qJtakG",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$rg0fzcp/1S61ONcy8rHuTeD6VCUQmqi1OeOw4ZTsVp0l/exTbG0gG",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": {
+            "type": null
+        },
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$ykpZAoMYJNZOCGPlE3c3huYM.npETj5.Nb13c6MlDk4Nne41q04K6",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": 6,
+        "email": {
+            "type": "d@gmail.com"
+        },
+        "password": "$2b$10$7CFEHrFY1C5R.IcZB6GHtuYQkrOUB9cOmlNgKKij4pB41p4Oz7Yru",
+        "confirm_password": {
+            "type": "undefined"
+        },
+        "action": {
+            "type": "register"
+        }
+    },
+    {
+        "id": 7,
+        "email": "d@gmail.com",
+        "password": "$2b$10$C.E274UD4G4e2HPY7CyK.u5QPtJCOd2tgnnUEvU5gNrMng0aG0bYS",
+        "confirm_password": "undefined",
+        "action": "register"
+    },
+    {
+        "id": 9,
+        "email": "d@gmail.com",
+        "password": "$2b$10$Nf1sYsOXOWx7IPjka8TP6eTtprVUMJaC3XqmSPYyTsvxGHNBFs9Na",
+        "confirm_password": "undefined",
+        "action": "register"
+    }
+]
