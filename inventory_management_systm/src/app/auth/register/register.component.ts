@@ -3,8 +3,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AuthService } from '../../service/auth.service';
 import { User } from '../../interfaces/user';
-import { RouterLink } from '@angular/router';
-import { Router } from 'express';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-register',
