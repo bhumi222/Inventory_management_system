@@ -9,7 +9,7 @@ import { Product } from '../interfaces/product';
 export class ProductService {
 constructor(private httpclient: HttpClient) { }
 
-  url = 'http://localhost:4000';
+  url = 'https://inventory-management-system-cohj.onrender.com';
 
   getProduct():Observable<Product[]>{
     return this.httpclient.get<Product[]>(this.url);
