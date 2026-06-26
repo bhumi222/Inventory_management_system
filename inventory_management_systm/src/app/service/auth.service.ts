@@ -10,7 +10,7 @@ export class AuthService {
 
   constructor(private httpclient: HttpClient) { }
 
-  url = 'http://localhost:4000/api/user';
+  url = 'https://inventory-management-system-cohj.onrender.com/api/user';
 
   getUser():Observable<User[]>{
     return this.httpclient.get<User[]>(this.url);
